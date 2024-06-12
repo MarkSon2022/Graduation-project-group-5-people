@@ -1,0 +1,43 @@
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.loading-spinner {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-left-color: #333;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.blogarae__img__2.course__details__img__2 {
+  position: relative;
+  padding-bottom: 56.25%; /* for 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
+  border-radius: 15px; /* rounded corners */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* shadow effect */
+}
+
+.blogarae__img__2.course__details__img__2 iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px; /* rounded corners */
+}

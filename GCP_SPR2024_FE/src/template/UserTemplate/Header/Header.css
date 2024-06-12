@@ -1,0 +1,8 @@
+.not-hoverable {
+  pointer-events: none;
+}
+.logout-icon {
+  color: red; /* Change the color to red */
+  font-size: 20px; /* Increase the size */
+  cursor: pointer; /* Change the cursor to a hand pointer when hovering over the icon */
+}

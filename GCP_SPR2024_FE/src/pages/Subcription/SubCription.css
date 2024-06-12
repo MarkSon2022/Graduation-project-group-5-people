@@ -1,0 +1,99 @@
+/* Subscription Plan Wrapper */
+.gridarea__wraper {
+    margin-bottom: 20px;
+  }
+  
+  /* Subscription Plan Image */
+  .gridarea__img img {
+    width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  /* Subscription Plan Name */
+  .gridarea__heading h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Subscription Plan Price */
+  .gridarea__price {
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  /* Subscription Plan Features */
+  .gridarea__list ul {
+    margin-top: 10px;
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .gridarea__list li {
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+  
+  .gridarea__list li i {
+    margin-right: 5px;
+    color: #2ecc71; /* Green color for checkmark icon */
+  }
+  
+ .subscribe-button {
+  display: inline-block;
+  padding: 8px 16px;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: rgb(95, 45, 237); /* Changed to the specified color */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.subscribe-button:hover {
+  background-color: rgb(75, 35, 207); /* Darker shade of the specified color on hover */
+}
+
+  
+
+/* Confirm subscription */
+.confirmation-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #f8f9fa;
+}
+
+.confirmation-page h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.confirmation-page p {
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.confirmation-page button {
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgb(125, 80, 247);
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.confirmation-page button:hover {
+  background-color:  rgb(95,45,237);
+}

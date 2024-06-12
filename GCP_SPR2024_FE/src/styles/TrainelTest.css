@@ -1,0 +1,106 @@
+.container-quiz{
+    width: 90%;
+    border-radius: 20px;
+    background-color: rgb(214, 224, 224);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 30px 60px;
+    box-sizing: border-box;
+    position: relative;
+    text-align: center;
+}
+
+.container-quiz .title{
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 70px;
+}
+.container-quiz .des{
+    display: grid;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.container-quiz #form input{
+    border: 1px solid #9c9c9c;
+    border-radius: 4px;
+    padding: 10px 20px;
+    width: 450px;
+    margin-top: 50px;
+    box-sizing: border-box;
+}
+
+.container-quiz .start button{
+    border-radius: 9px;
+    font-size: 18px;
+    color: #fff;
+    padding: 15px 45px;
+    outline: none;
+    border: none;
+    margin-top: 50px;
+    
+}
+.quiz-question{
+    width: 700px;
+    background: #ffffff;
+    border-radius: 4px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 30px 60px;
+    box-sizing: border-box;
+    display: inline-block; 
+}
+.question{
+    width: 500px;
+    background: #ffffff;
+    border-radius: 4px;
+    margin-top: 10px;
+    
+    padding: 30px 60px;
+    box-sizing: border-box;
+}
+.question ul{
+    display: grid;
+    text-align: start;
+}
+.question ul li{
+    text-decoration: none;
+    list-style: none;
+    color: #2d264b;
+    font-size: 16px;
+    background: #ffffff;
+    border: 1px solid #9c9c9c;
+    border-radius: 16px;
+    padding: 11px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.PrevAndNext{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.PrevAndNext button{
+    padding: 12px 30px;
+}
+.table-result{
+    width: 800px;
+    border: 2px solid #2d264b;
+    margin-top: 30px;
+
+}
+.result{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 50px;
+}
+.result span{
+    font-size: 20px;
+    font-weight: 500;
+}
+.result .bold{
+    color: blue;
+    
+}
